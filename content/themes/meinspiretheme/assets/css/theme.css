@@ -121,17 +121,15 @@ a:hover {
 /* --- Footer --------------------------------------------------------------- */
 
 .footer-background{
-    overflow: auto;
+    overflow: overlay;
     background-color: #FFFFFF;
 }
-
 .footer {
   background-color: #57c2b2;
 }
 .footer a {
   color: #df514c;
 }
-
 .footer--top {
   color: #80cbc4;
 }
