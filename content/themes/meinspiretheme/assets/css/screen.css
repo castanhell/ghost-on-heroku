@@ -4,6 +4,7 @@
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:300,300italic,500,500italic,700,700italic);
 @import url(https://fonts.googleapis.com/css?family=Roboto+Mono:400,400italic);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Slab);
 
 body {
   display: flex;
@@ -11,11 +12,11 @@ body {
   min-height: 100vh;
   min-width: 320px;
   font-weight: 300;
-  font-family: "Roboto", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Josefin Slab", "Helvetica Neue", Arial, sans-serif;
 }
 code, kbd, pre, samp {
   font-weight: 400;
-  font-family: "Roboto Mono", "Menlo", "Monaco", "Consolas", monospace;
+  font-family: "Josefin Slab", "Menlo", "Monaco", "Consolas", monospace;
 }
 a {
   text-decoration: none;
