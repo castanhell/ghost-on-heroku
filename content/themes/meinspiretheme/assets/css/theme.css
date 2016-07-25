@@ -8,7 +8,7 @@ body {
   background-color: #FFFFFF;
 }
 a {
-  color: #ff4f47;
+  color: #008bba;
 }
 a:hover {
   color: #00897b;
@@ -99,7 +99,7 @@ a:hover {
 
 .fab {
   color: white;
-  background-color: #ff4f47;
+  background-color: #008bba;
 }
 .fab:hover {
   color: white;
