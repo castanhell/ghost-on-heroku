@@ -121,7 +121,7 @@ a:hover {
 /* --- Footer --------------------------------------------------------------- */
 
 .footer-background{
-    overflow: overlay;
+    display: inline-block;
     background-color: #FFFFFF;
 }
 .footer {
