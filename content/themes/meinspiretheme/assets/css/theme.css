@@ -122,6 +122,7 @@ a:hover {
 
 .footer-background{
     display: inline-block;
+    padding: 0em;
     background-color: #FFFFFF;
 }
 .footer {
