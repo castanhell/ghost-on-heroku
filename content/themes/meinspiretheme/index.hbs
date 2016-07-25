@@ -14,6 +14,9 @@
     <!-- Links -->
     <nav class="navbar--nav">
       <a class="navbar--nav-link ripple" href="#!">
+        <span class="hide-on-medium">Quem somos</span>
+      </a>
+      <a class="navbar--nav-link ripple" href="#!">
         <i class="mdi mdi-twitter"></i>
         <span class="hide-on-medium">Twitter</span>
       </a>
@@ -54,7 +57,7 @@
       <header class="card--header">
     {{/if}}
         <!-- Title -->
-        <h5 class="card--title" itemprop="headline"> <a href="{{url}}"> {{title}} </a> </h5>
+        <h5 itemprop="headline"> <a href="{{url}}"> {{title}} </a> </h5>
         <span class="card--subtitle">
           <i class="fa fa-calendar-o"></i>
           <time datetime="{{date format='YYYY-MM-DD'}}" itemprop="datePublished">
@@ -62,17 +65,17 @@
           </time>
         </span>
         <!-- Image -->
-        {{#if image}}<img class="bg-image" src="{{image}}" />{{/if}}
+        <!-- {{#if image}}<img class="bg-image" src="{{image}}" />{{/if}} -->
       </header>
       <!-- Content -->
-      <section class="card--main">
+      <section >
         <summary class="card--content" itemprop="articleBody">
           {{excerpt words="50"}}&hellip;
         </summary>
       </section>
       <!-- Actions -->
       <footer class="card--actions right">
-        <a class="button ripple" href="{{url}}">More</a>
+        <a class="button ripple" href="{{url}}">Leia mais</a>
       </footer>
     </article>
   {{/foreach}}
