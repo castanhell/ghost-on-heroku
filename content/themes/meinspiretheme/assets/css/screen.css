@@ -4,7 +4,7 @@
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:300,300italic,500,500italic,700,700italic);
 @import url(https://fonts.googleapis.com/css?family=Roboto+Mono:400,400italic);
-@import url(https://fonts.googleapis.com/css?family=Josefin+Slab);
+@import 'https://fonts.googleapis.com/css?family=Arvo|Lato';
 
 body {
   display: flex;
@@ -12,7 +12,7 @@ body {
   min-height: 100vh;
   min-width: 320px;
   font-weight: 300;
-  font-family: "Josefin Slab", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Lato", "Helvetica Neue", Arial, sans-serif;
 }
 code, kbd, pre, samp {
   font-weight: 400;
@@ -26,6 +26,9 @@ a {
 }
 h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
+}
+.title{
+  font-family: "Arvo", Arial, sans-serif;
 }
 strong, b {
   font-weight: 700;
