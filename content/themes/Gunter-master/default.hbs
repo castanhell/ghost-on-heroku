@@ -15,25 +15,15 @@
 	{{ghost_head}}
 </head>
 <body class="{{body_class}}">
-       
-        <script>
-		window.fbAsyncInit = function() {
-		FB.init({
-		appId      : '1638730269776305',
-		xfbml      : true,
-		version    : 'v2.5'
-		});
-		};
 
-		(function(d, s, id){
-		var js, fjs = d.getElementsByTagName(s)[0];
-		if (d.getElementById(id)) {return;}
-		js = d.createElement(s); js.id = id;
-		js.src = "//connect.facebook.net/en_US/sdk.js";
-		fjs.parentNode.insertBefore(js, fjs);
-		}(document, 'script', 'facebook-jssdk'));
-	</script>
-
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.7&appId=1638730269776305";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
 
 	{{{body}}}
 
@@ -44,7 +34,7 @@
 	</footer>
 
 	{{ghost_foot}}
-	
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
 
@@ -66,6 +56,6 @@
         //Google Analytics
 
 	</script>
-	
+
 </body>
 </html>
